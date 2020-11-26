@@ -1,0 +1,24 @@
+{
+  "name": "SOLID-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GusBedasi/SOLID-API.git",
+  "author": "GusBedasi <ggustavobedasi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/nodemailer": "^6.4.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16",
+    "uuid": "^8.3.1",
+    "uuid4": "^2.0.2"
+  }
+}
